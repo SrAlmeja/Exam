@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class FigureGenerator : MonoBehaviour
 {
-    public int numberOfVertex;
-    public int numberOfSides;
-    public int radius;
-
 
 
     // Start is called before the first frame update

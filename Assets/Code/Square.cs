@@ -2,17 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Square : MonoBehaviour
+public class Square : FigureGenerator
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int numberOfVertex;
+    public int numberOfSides;
 
-    // Update is called once per frame
-    void Update()
+    public Square(int anumberOfVertex, int anumberOfSides)
     {
-        
+        anumberOfVertex = numberOfVertex;
+        anumberOfSides = numberOfSides;
     }
 }

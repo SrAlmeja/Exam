@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Circle : MonoBehaviour
+public class Circle : FigureGenerator
 {
-    // Start is called before the first frame update
-    void Start()
+    //Atributos
+    public int numberOfVertex;
+    public int radious;
+
+    public Circle(int anumberOfVertex, int aradious)
     {
-        
+        anumberOfVertex = numberOfVertex;
+        aradious = radious;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }
