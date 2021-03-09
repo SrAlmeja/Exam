@@ -68,6 +68,10 @@
     <Compile Include="Assets\Code\Rectangle.cs" />
     <Compile Include="Assets\Code\Square.cs" />
     <Compile Include="Assets\Code\Triangle.cs" />
+    <Compile Include="Assets\Code\parte 2\Bala.cs" />
+    <Compile Include="Assets\Code\parte 2\Compañero.cs" />
+    <Compile Include="Assets\Code\parte 2\Enemigo.cs" />
+    <Compile Include="Assets\Code\parte 2\Moneda.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
