@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Square : FigureGenerator
+public class Square
 {
     public int numberOfVertex;
     public int numberOfSides;
+    public int leinghtOfSides;
 
-    public Square(int anumberOfVertex, int anumberOfSides)
+    public Square(int anumberOfVertex, int anumberOfSides, int aleinghtOfSides)
     {
-        anumberOfVertex = numberOfVertex;
-        anumberOfSides = numberOfSides;
+        numberOfVertex = anumberOfVertex;
+        numberOfSides = anumberOfSides;
+        leinghtOfSides = aleinghtOfSides;
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Circle : FigureGenerator
+public class Circle
 {
     //Atributos
     public int numberOfVertex;
@@ -10,8 +10,8 @@ public class Circle : FigureGenerator
 
     public Circle(int anumberOfVertex, int aradious)
     {
-        anumberOfVertex = numberOfVertex;
-        aradious = radious;
+        numberOfVertex = anumberOfVertex;
+        radious = aradious;
     }
 
 

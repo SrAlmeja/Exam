@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
 
-public class Triangle : FigureGenerator
+public class Triangle
 {
     public int numberOfVertex;
     public int numberOfSides;
+    public int lengthOfSides;
 
-    public Triangle(int anumberOfVertex, int anumberOfSides)
+    public Triangle(int anumberOfVertex, int anumberOfSides, int alenghtOfSides)
     {
-        anumberOfVertex = numberOfVertex;
-        anumberOfSides = numberOfSides;
+        numberOfVertex = anumberOfVertex;
+        numberOfSides = anumberOfSides;
+        lengthOfSides = alenghtOfSides;
     }
 }
